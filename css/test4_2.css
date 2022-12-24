@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, p {
+  text-align: center;
+}
+
+form {
+  width:400px;
+  padding:10px;
+  margin:20px auto;
+}
+
+label {
+  display:none;
+}
+
+input {
+  width:100%;
+  padding:5px;
+  margin:5px 0;
+}
+
+button {
+  width:100%;
+  height:40px;
+  padding:5px;
+  margin:5px 0;
+  border:1px solid #222;
+}
+
+button:hover {
+  background-color:#222;
+  color:#fff;
+  cursor:pointer;
+}
+
+#rv {
+  width:150px;
+  height:80px;
+  padding:5px;
+  margin:15px auto;
+  border:1px solid #222;     
+  font-size:35px;      
+  text-align: center;      
+  line-height: 60px;
+}

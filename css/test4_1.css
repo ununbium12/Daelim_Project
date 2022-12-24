@@ -1,0 +1,57 @@
+#ct{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#head {
+  display:flex;
+  flex-direction: row;
+  justify-content:left;
+  align-items: center;
+  gap : 15px;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:15px;
+}
+
+#head ul {
+  list-style: none;
+}
+
+li {
+  font-size:18px;
+  line-height: 38px;
+}
+
+li > b {
+  width:70px;
+  float:left;
+}
+
+#bt {
+  margin-top:20px;
+  padding:10px;
+  background-color:#fff;      
+  border:1px solid #ccc;
+  border-left:none;
+  border-right:none;
+  cursor:pointer;
+  font-size: 16px;
+}
+
+h1 {
+  color: #FF4654;
+}
+
+h2 {
+  line-height:38px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.hidden {
+  display: none;
+}

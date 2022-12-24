@@ -3,7 +3,7 @@ const numto = parseInt(prompt(`두번째 숫자를 입력 하십시오.`));
 const numtr = parseInt(prompt(`세번째 숫자를 입력 하십시오.`));
 const numfr = parseInt(prompt(`네번째 숫자를 입력 하십시오.`));
 
-function isGCD(n, m) {
+function getGCD(n, m) {
   let max = n > m ? n : m;
   let GCD = 0;
   for (let i = 1; i <= max; i++) {
@@ -14,5 +14,5 @@ function isGCD(n, m) {
   return GCD;
 }
 
-console.log(`${numon}과 ${numto}의 최대공약수 : ${isGCD(numon, numto)}`);
-console.log(`${numtr}과 ${numfr}의 최대공약수 : ${isGCD(numtr, numfr)}`);
+console.log(`${numon}과 ${numto}의 최대공약수 : ${getGCD(numon, numto)}`);
+console.log(`${numtr}과 ${numfr}의 최대공약수 : ${getGCD(numtr, numfr)}`);
